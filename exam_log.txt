@@ -1,0 +1,33 @@
+    1  git clone https://github.com/Anonymous238/210952804_Canilang.git
+    2  ls
+    3  cd 210952804_Canilang/
+    4  mkdir linux_practice
+    5  cd linux_practice/
+    6  touch notes.txt
+    7  ls
+    8  ls echo notes.txt
+    9  clear
+   10  ls >> notes.txt
+   11  cat notes.txt
+   12  echo -e "Hello, Linux!" >> notes.txt
+   13  cat notes.txt
+   14  head -1 notes.txt
+   15  tail notes.txt
+   16  mkdir subdir
+   17  mv notes.txt subdir
+   18  mv subdir practice_subdir
+   19  mv notes.txt linux_practice
+   20  ls
+   21  cd practice_subdir
+   22  ls
+   23  mv notes.txt linux_practice
+   24  date
+   25  time
+   26  time date +"%"
+   27  df -h
+   28  ssh -v
+   29  gh auth login
+   30  gh repo clone https://github.com/Anonymous238/210952804_Canilang
+   31  cd 210952804_Canilang/
+   32  git checkout -b finalexam
+   33  history > exam_log.txt
